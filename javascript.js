@@ -4,7 +4,6 @@ let roundCount = 0;
 let result;
 let buttons;
 
-// Wait for DOM to load before accessing elements
 document.addEventListener('DOMContentLoaded', () => {
     result = document.getElementById("results");
     buttons = document.querySelectorAll("button");
